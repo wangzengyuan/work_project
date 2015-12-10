@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A37A7BA1C192B000048626A /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A37A7B91C192B000048626A /* ThirdViewController.m */; };
 		9A69D8541C191BDF00F4CB67 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A69D8531C191BDF00F4CB67 /* main.m */; };
 		9A69D8571C191BDF00F4CB67 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A69D8561C191BDF00F4CB67 /* AppDelegate.m */; };
 		9A69D85A1C191BDF00F4CB67 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A69D8591C191BDF00F4CB67 /* FirstViewController.m */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9A37A7B81C192B000048626A /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		9A37A7B91C192B000048626A /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
 		9A69D84F1C191BDE00F4CB67 /* MyTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A69D8531C191BDF00F4CB67 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9A69D8551C191BDF00F4CB67 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -115,6 +118,8 @@
 				9A69D8631C191BDF00F4CB67 /* LaunchScreen.storyboard */,
 				9A69D8661C191BDF00F4CB67 /* Info.plist */,
 				9A69D8521C191BDF00F4CB67 /* Supporting Files */,
+				9A37A7B81C192B000048626A /* ThirdViewController.h */,
+				9A37A7B91C192B000048626A /* ThirdViewController.m */,
 			);
 			path = MyTest;
 			sourceTree = "<group>";
@@ -276,6 +281,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A69D85D1C191BDF00F4CB67 /* SecondViewController.m in Sources */,
+				9A37A7BA1C192B000048626A /* ThirdViewController.m in Sources */,
 				9A69D8571C191BDF00F4CB67 /* AppDelegate.m in Sources */,
 				9A69D85A1C191BDF00F4CB67 /* FirstViewController.m in Sources */,
 				9A69D8541C191BDF00F4CB67 /* main.m in Sources */,
@@ -418,6 +424,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MyTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.powerall.MyTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -429,6 +436,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MyTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.powerall.MyTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -502,6 +510,7 @@
 				9A69D8811C191BDF00F4CB67 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9A69D8821C191BE000F4CB67 /* Build configuration list for PBXNativeTarget "MyTestTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +519,7 @@
 				9A69D8841C191BE000F4CB67 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9A69D8851C191BE000F4CB67 /* Build configuration list for PBXNativeTarget "MyTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +528,7 @@
 				9A69D8871C191BE000F4CB67 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
